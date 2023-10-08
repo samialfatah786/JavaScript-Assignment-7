@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+   <button onclick="greet()">popup</button> 
+
+    <a onclick="greet()" href="">popup</a> 
+
+
+
+
+
+
+
+     <button onclick="check(this)">submit</button> 
+
+    <input id="name" type="text" placeholder="Enter name" />
+
+    <input id="email" type="text" placeholder="Enter email" />
+
+    <button onclick="login()">Login</button> 
+
+    <input type="text" id="input" />
+    <input type="text" id="input" />
+
+    <button onclick="set()">set</button>
+
+
+
+
+
+        <label for="myCheckbox">Check this box:</label>
+        <input type="checkbox" id="myCheckbox">
+        <button onclick="getValue()">Get Checkbox Value</button>
+    
+        <script>
+            function getValue() {
+              
+                var checkbox = document.getElementById("myCheckbox");
+    
+                
+                if (checkbox.checked) {
+                   
+                    console.log("Checkbox is checked: true");
+                } else {
+                   
+                    console.log("Checkbox is checked: false");
+                }
+            }
+        </script> 
+
+
+
+
+        
+        <p><a href="#" id="scrollToTop">Scroll to Top</a></p>
+        
+        <script>
+        
+        document.getElementById("scrollToTop").addEventListener("click", function(event) {
+            event.preventDefault(); 
+            
+        
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        </script>
+        
+
+        <a href=":https://classroom.google.com/" target="_blank">Open New Window</a>
+
+
+<br>
+
+        <button id=":https://classroom.google.com/">Click Me</button>
+
+
+
+
+
+        <style>
+            
+            .color-change-button {
+                background-color: #3498db; 
+                color: #fff; 
+                padding: 10px 20px;
+                border: none;
+                cursor: pointer;
+            }
+    
+            .color-change-button:hover {
+                background-color: #e74c3c; 
+            }
+        </style>
+    
+
+
+
+
+
+
+
+
+
+    <script src="apps.js"></script>
+</body>
+</html>
